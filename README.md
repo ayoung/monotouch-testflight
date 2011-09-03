@@ -1,7 +1,5 @@
-MonoTouch bindings for TestFlight SDK v0.5
+MonoTouch bindings for TestFlight SDK v0.6 beta
 =================================
-
-These are the MonoTouch bindings for TestFlight's SDK v0.5. As of this writing the TestFlight SDK is still in beta and you'll need to get approved from them in order to get access to the beta program.
 
 Adding this lib to your project
 -------------------------------
