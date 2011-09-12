@@ -1,4 +1,4 @@
-MonoTouch bindings for TestFlight SDK v0.6 beta
+MonoTouch bindings for TestFlight SDK
 =================================
 
 Adding this lib to your project
