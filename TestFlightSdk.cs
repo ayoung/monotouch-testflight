@@ -23,7 +23,7 @@ namespace TestFlightSdk
 		void PassCheckpoint (string checkpointName);
 		
 		// + (void)openFeedbackView;
-		[Export ("openFeedbackView")]
+		[Static, Export ("openFeedbackView")]
 		void OpenFeedbackView ();
 
 	}
