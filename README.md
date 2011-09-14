@@ -13,5 +13,5 @@ Adding this lib to your project
     - Set Linker behavior to "Link SDK assemblies only"
     - Set the Extra arguments in all iPhone Build configurations that you want to use the SDK in to:
 
-      `-v -v -v -nosymbolstrip -gcc_flags "-L${ProjectDir} -ltestflight -ObjC"`
+      `-nosymbolstrip -nostrip -cxx -gcc_flags "-lgcc_eh -L${ProjectDir} -ltestflight -ObjC"`
       
