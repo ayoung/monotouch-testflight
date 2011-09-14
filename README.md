@@ -4,6 +4,8 @@ MonoTouch bindings for TestFlight SDK
 Adding this lib to your project
 -------------------------------
 
+The SDK will only run properly on the device when built using the LLVM compiler. Make sure this is enabled in your project's advanced build settings.
+
 1. Download the TestFlight SDK from their site.
 2. Clone this repository
 3. In terminal, run "make" within the cloned repository
