@@ -1,6 +1,8 @@
 MonoTouch bindings for TestFlight SDK
 =================================
 
+Before diving in, please be aware that TestFlight's SDK is compiled with THUMB instructions. This means that you won't know if the SDK will work in your app or not. It may work one day, then the next day it might not. Please read [this](http://bugzilla.xamarin.com/show_bug.cgi?id=1686) for more info. Also, read the [Code Generation Engine](http://docs.xamarin.com/ios/advanced_topics/compilation) section on Xamarin's docs.
+
 Adding this lib to your project
 -------------------------------
 
